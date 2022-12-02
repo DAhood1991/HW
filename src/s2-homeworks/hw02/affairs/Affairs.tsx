@@ -5,14 +5,14 @@ import s from './Affairs.module.css'
 
 type AffairsPropsType = {
     data: Array<AffairType> // need to fix any
-    setFilter:(filter:FilterType)=>void
-    deleteAffairCallback: (_id: number)=>void
+    setFilter: (filter: FilterType) => void
+    deleteAffairCallback: (_id: number) => void
     filter: FilterType
 }
 
 function Affairs(props: AffairsPropsType) {
     const setAll = () => {
-props.setFilter('all')
+        props.setFilter('all')
         // need to fix
 
 
