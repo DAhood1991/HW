@@ -1,41 +1,24 @@
 .greetingForm {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: rgba(63, 61, 61, 0.5);
 }
 
 .inputAndButtonContainer {
-
 }
 
 .error {
-    color: #cc0000;
 }
 
 .input {
+    color: #212A34;
 }
 
 .input:focus {
-
 }
 
 .errorInput {
-border: #cc0000 1px solid;
+    color: #cc0000;
 }
 
 .button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 24px;
-    gap: 10px;
-    background: #0066CC;
-    border-radius: 3px;
-
 }
 
 .button:focus {
@@ -48,9 +31,7 @@ border: #cc0000 1px solid;
 }
 
 .text {
-
 }
 
 .greeting {
-
 }
