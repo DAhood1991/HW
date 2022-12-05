@@ -25,7 +25,7 @@ const Greeting: React.FC<GreetingPropsType> = (
         lastUserName,
     } // деструктуризация пропсов
 ) => {
-    const inputClass = (setNameCallback) ? s.errorInput : s.error
+    const inputClass = (setNameCallback) ? s.error : s.errorInput
     // need to fix with (?:)
 
     return (
