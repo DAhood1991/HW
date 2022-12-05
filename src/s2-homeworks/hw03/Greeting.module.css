@@ -5,33 +5,47 @@
 }
 
 .error {
+    color: #00cc22;
 }
 
 .input {
-    color: #212A34;
 }
 
 .input:focus {
+
 }
 
 .errorInput {
     color: #cc0000;
+
 }
 
 .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
 }
 
 .button:focus {
+    color: #0059b3;
 }
 
 .button:active {
+
 }
 
 .button:disabled {
+
+    color: #00cc22;
 }
 
 .text {
+
 }
 
 .greeting {
+
 }
