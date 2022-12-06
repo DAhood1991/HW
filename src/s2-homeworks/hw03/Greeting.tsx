@@ -26,7 +26,8 @@ const Greeting: React.FC<GreetingPropsType> = (
     } // деструктуризация пропсов
 ) => {
 
-    const inputClass = error.length === 0 ? s.errorInput : ""
+    // const inputClass = error.length === 0 ? s.errorInput : ""
+    const inputClass = error ? '' : s.errorInput
     // const inputClass =   s.errorInput
     // need to fix with (?:)
 
