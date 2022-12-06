@@ -27,9 +27,11 @@ const Greeting: React.FC<GreetingPropsType> = (
 ) => {
 
     // const inputClass = error.length === 0 ? s.errorInput : ""
-    const inputClass = error ? '' : s.errorInput
+    const inputClass = error ? s.errorInput : ''
     // const inputClass =   s.errorInput
     // need to fix with (?:)
+
+    // const inputClass = error ? ${s.errorInput} ${s.input} : s.input // need to fix with (?:)
 
 
     return (
