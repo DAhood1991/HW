@@ -1,5 +1,10 @@
 .greetingForm {
-
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .inputAndButtonContainer {
@@ -7,11 +12,10 @@
 }
 
 .error {
-    color: #00cc22;
+color: #cc0000;
 }
 
 .input {
-
 }
 
 .input:focus {
@@ -19,7 +23,7 @@
 }
 
 .errorInput {
-    color: #cc0000;
+border-color: #cc0000;
 
 }
 
