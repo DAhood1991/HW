@@ -63,7 +63,7 @@ const HW1 = () => {
                     <Message message={message0}/>
                     <FriendMessage message={friendMessage0}/>
                 </div>
-
+<></>
                 {/*для автоматической проверки дз (не менять)*/}
                 <MessageSender M={Message}/>
             </div>
