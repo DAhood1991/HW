@@ -1,7 +1,12 @@
 .button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+
 }
 
 .disabled {
+    pointer-events: none;
+    opacity: 0.5;
 }
 
 .secondary {
@@ -11,6 +16,7 @@
 }
 
 .red {
+    color: #cc0000;
 }
 
 .default:hover {
@@ -33,4 +39,6 @@
 }
 
 .button:disabled {
+    pointer-events: none;
+    opacity: 0.5;
 }
