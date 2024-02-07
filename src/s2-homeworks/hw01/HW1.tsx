@@ -26,7 +26,7 @@ type MessagesType = {
 export type MessageType = {
     id: number
     user: UserType
-    message: MessagesTypeda
+    message: MessagesType
 }
 // структуру объекта не менять
 export const message0: MessageType = {
